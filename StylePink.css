@@ -1,0 +1,210 @@
+body {
+    background-color: palevioletred;
+}
+
+.Titulo1{
+    font-family: "DM Serif Text", serif;
+}
+
+.introdu{
+    font-family: "Shadows Into Light", cursive;
+}
+/*imagenes*/
+.lgtipo{
+    border-radius: 10px;
+    border: 10px;
+    float: left;
+    width: 300px;
+
+}
+
+.imagenes {
+    display: flex;              
+    justify-content: center;     
+    align-items: center;      
+    gap: 20px;                   
+    margin: 20px 0;              
+}
+
+.lgtipo, .bpk, .chicas {
+    max-width: 300px;            
+    height: auto;                
+    border-radius: 10px;
+}
+.bpk{
+    border-radius: 10px;
+    float: left;
+    width: 480px;
+}
+
+.chicas{
+    border-radius: 10px;
+    float: left;
+    width: 480px;
+}
+
+/*listas*/
+
+
+.pasos{
+    width: 15em;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;
+    padding: 5px 12px;
+    background-image: linear-gradient(180deg, #ffffff, #e3e0e0 40%, #e316d5);
+}
+
+.contenedor-listas {
+    display: flex;               
+    justify-content: center;     
+    gap: 30px;                   
+    margin: 20px 0;              
+}
+
+.empresas, .pasos {
+    width: 300px;                
+    padding: 20px;               
+    background-color: #f0f0f0;  
+    border-radius: 10px;         
+    text-align: left;
+}
+
+/*botones*/
+.btlisa{  
+ padding: 17px 40px;
+ border-radius: 50px;
+ border: 0;
+ background-color: palevioletred;
+ box-shadow: black;
+ font-family: "Paytone One", sans-serif;
+ letter-spacing: 1.5px;
+ text-transform: uppercase;
+ font-size: 15px;
+ transition: all .5s ease;
+}
+.btlisa{
+    letter-spacing: 3px;
+    background-color: black;
+    text-decoration:none;
+    color: pink;
+}
+.btlisa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ajusta el espacio entre los botones */
+}
+
+.btjennie{
+    padding: 17px 40px;
+ border-radius: 50px;
+ border: 0;
+ background-color: palevioletred;
+ box-shadow: black;
+ font-family: "Paytone One", sans-serif;
+ letter-spacing: 1.5px;
+ text-transform: uppercase;
+ font-size: 15px;
+ transition: all .5s ease;
+}
+
+.btjennie{
+    letter-spacing: 3px;
+    background-color: black;
+    text-decoration:none;
+    color: pink;
+}
+.btjennie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.btrose{
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: palevioletred;
+    box-shadow: black;
+    font-family: "Paytone One", sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+}
+
+.btrose{
+    letter-spacing: 3px;
+    background-color: black;
+    text-decoration:none;
+    color: pink;
+}
+.btrose {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+ }
+.btjisoo{
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: palevioletred;
+    box-shadow: black;
+    font-family: "Paytone One", sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+}
+
+.btjisoo{
+    letter-spacing: 3px;
+    background-color: black;
+    text-decoration:none;
+    color: pink;
+}
+.btjisoo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ajusta el espacio entre los botones */
+}
+
+.btlisa, .btjennie, .btrose, .btjisoo, .botones {
+    display: block; 
+    text-align: center; 
+    margin: 50px auto; 
+    width: 300px; 
+}
+
+.lgtipo, .bpk, .chicas {
+    display: block;
+    margin: 0 auto 50px auto; 
+}
+
+
+.formu{
+    font-family: "Noto Sans Mono", monospace;
+    text-align: :left;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    transition: translate -50% -50%;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #88b0f5;
+}
+
+.formu label{
+    display: block;
+    margin-bottom: 9px;
+    text-align: center;
+}
+.formu input{
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.enviar{
+    font-family: "Alfa Slab One", serif;
+    border-radius: 10px;
+}
